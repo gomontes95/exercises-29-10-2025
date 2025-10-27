@@ -1,0 +1,1 @@
+Calculadora de Factorial (Iterativa y Recursiva): Escribe dos funciones, una iterativa y otra recursiva, para calcular el factorial de un número dado por el usuario. Compara la eficiencia (opcional).

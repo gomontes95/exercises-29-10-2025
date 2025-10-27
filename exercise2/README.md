@@ -1,0 +1,1 @@
+Contador de Palabras Únicas: Pide al usuario un párrafo de texto y cuenta cuántas palabras únicas hay en él, ignorando mayúsculas/minúsculas y signos de puntuación.

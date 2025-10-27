@@ -1,0 +1,1 @@
+Generador de Números Primos: Crea un programa que genere los primeros 'n' números primos, donde 'n' es un número ingresado por el usuario.

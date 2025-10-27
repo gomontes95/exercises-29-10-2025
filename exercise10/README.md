@@ -1,0 +1,1 @@
+Juego "Piedra, Papel o Tijera" contra la Computadora: Desarrolla un juego donde el usuario juega "Piedra, Papel o Tijera" contra la computadora. El programa debe llevar un registro de las puntuaciones y permitir múltiples rondas.

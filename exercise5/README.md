@@ -1,0 +1,1 @@
+Validador de Paréntesis: Dada una cadena que contiene solo los caracteres '(', ')', '{', '}', '[' y ']', determina si la cadena de entrada es válida. Los paréntesis deben cerrarse en el orden correcto

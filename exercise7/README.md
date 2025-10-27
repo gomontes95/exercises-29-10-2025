@@ -1,0 +1,1 @@
+Búsqueda Binaria: Implementa el algoritmo de búsqueda binaria para encontrar un elemento en una lista ordenada. Pide al usuario una lista de números ordenados y un número a buscar.
