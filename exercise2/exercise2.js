@@ -21,3 +21,30 @@
 
 // uniqueWordsCounter();
 
+let text = 'Hello World, Around the world, around the world, Around the world, around the world, Around the world, around the world '
+
+function lengthOf(str) {
+  let count = 0;
+  while (str[count] !== undefined) {
+    count++;
+  }
+  return count;
+};
+
+function splitStr(str, ignore) {
+    let splitResult= []
+    
+    for ( let i = 0; str[i] !== undefined ;i++) {
+
+        if ( ignore === str[i] ) { 
+            continue 
+        }
+        splitResult[lengthOf(splitResult)] = str[i];
+
+    }
+    return splitResult
+};
+
+function removeCharacters( str ) {
+  
+}
