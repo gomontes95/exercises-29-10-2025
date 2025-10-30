@@ -98,6 +98,6 @@ consolePrint(combineArrToString(reverseArray(splitStr(word))));
 
 
 consolePrint('');
-consolePrint('Sorry i cant make console.log with out the built in function .write if i want to do that i need to create my hown version of js');
-consolePrint('and create my own built in versions of console.log that access the terminal send the bits to interpret the text on the console');
+consolePrint('Sorry i cant make console.log with out the built in function .write, if i want to do that i need to create my hown version of js');
+consolePrint('and create my own built in my version of console.log that access the terminal send the bits to interpret the text on the console');
 consolePrint('for now i think this is ok 💻☕');
