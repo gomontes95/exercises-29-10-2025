@@ -41,7 +41,7 @@ function separeteBy(str, value) {
   let newArr = [];
   let result = [];
 
-  for (let i = 0; i < lengthOf(splitStr(str))-1; i++) {
+  for (let i = 0; i < lengthOf(splitStr(str)); i++) {
     
     if ( str[i] !== value ) {
       newArr[lengthOf(newArr)] = str[i];
@@ -119,49 +119,6 @@ function replaceToLowercases(str) {
   return newString;
 }
 
-// function removeDuplicates(str) {
-//   let arrCopy = separeteBy(str, ' ');
-  
-  
-//   let newArr = [];
-
-//   for (let i = 0; i < lengthOf(arrCopy); i++) {    
-
-//     let j = 0;
-//     console.log(lengthOf(newArr));
-//     let check = true
-    
-//     do {
-//       if ( check === true ) {
-        
-//         let limit = lengthOf(newArr);
-//         do {
-//           console.log(arrCopy[i], newArr[j]);
-//           console.log({j});
-//           console.log(lengthOf(newArr));
-//           if ( limit <= lengthOf(newArr)) { limit++}
-//           if ( arrCopy[i] !== newArr[j]) {
-//             check = false;
-//           }
-//             j++
-//          } while(j < limit)
-
-//       }
-        
-//       if ( check === false) {
-//         newArr[lengthOf(newArr)] = arrCopy[i]
-//         console.log({ newArr });
-//       }
-      
-//       continue
-//     } while ( check === true );     
-    
-//   }
-
-//   let result = combineArrToString(newArr);
-//   return result;
-// }
-
 function removeDuplicates(str) {
   let arrCopy = separeteBy(str, ' ');
   let newArr = [];
@@ -191,7 +148,22 @@ function removeDuplicates(str) {
   return result;
 }
 
+function consolePrint( str ) {
+    process.stdout.write( str + '\n' )
+};
+
+
+//!  ↓ UNIQUE WORD COUNTER IMPUT ↓
 let yourText = 'Hello World, Around the world. ! @'
 
 const textCleaned = removeDuplicates(replaceToLowercases(removeCharacters(yourText, marks)));
 
+consolePrint('You can intruduce your text to calculate the unique words it have on codeline # 200!')
+consolePrint('')
+consolePrint('This is your text')
+consolePrint(`→ ${yourText}`)
+consolePrint('')
+consolePrint('calculating unique words ♦ • ♦ • ♦ • ♦ • ♦')
+consolePrint('')
+consolePrint(textCleaned)
+consolePrint(`you have a total of ${lengthOf(separeteBy(textCleaned, ' '))} unique words`)
