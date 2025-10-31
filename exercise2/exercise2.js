@@ -126,7 +126,6 @@ function removeDuplicates(str) {
   for (let i = 0; i < lengthOf(arrCopy); i++) {
     let j = 0;
     let exists = false;
-
     
     while (j < lengthOf(newArr)) {
       if (arrCopy[i] === newArr[j]) {
@@ -152,13 +151,12 @@ function consolePrint( str ) {
     process.stdout.write( str + '\n' )
 };
 
-
 //!  ↓ UNIQUE WORD COUNTER IMPUT ↓
 let yourText = 'Hello World, Around the world. ! @'
 
 const textCleaned = removeDuplicates(replaceToLowercases(removeCharacters(yourText, marks)));
 
-consolePrint('You can intruduce your text to calculate the unique words it have on codeline # 200!')
+consolePrint('You can intruduce your text to calculate the unique words it have on codeline # 155!')
 consolePrint('')
 consolePrint('This is your text')
 consolePrint(`→ ${yourText}`)
