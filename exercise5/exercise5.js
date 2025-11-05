@@ -1,5 +1,3 @@
-   import chalk from 'chalk';
-
 //! Dejo esto comentado como algo que hice primero porque no entendi bien la tarea, es más un organizador de un array que junta dos valores proximos. 
 
 //const chainedValues = [ '(', ')', '{', '}', '[', ']' ]
@@ -33,14 +31,14 @@ const validateParentheses = (input) => {
         } else if ( chainedValues[char] ) {
             console.table({ values, char });            
             if (values.pop() !== chainedValues[char]) {
-                console.log(chalk.red( 'Parentheses are in incorrect order') );
+                console.log('Parentheses are in incorrect order');
                 return false;
             }
         }
     }
 
     if ( values.length === 0 ) {
-        console.log(chalk.green( 'Parentheses are valid' ) );
+        console.log('Parentheses are valid');
         return true;
     }
 };
